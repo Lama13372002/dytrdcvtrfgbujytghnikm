@@ -1,0 +1,60 @@
+$ next start -H "0.0.0.0" -p "3000"
+  ▲ Next.js 14.2.26
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 725ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+Connected to database
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/car-silhouette.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Fetching featured blog posts for home page
+Found 2 published blog posts
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/car-silhouette.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/reviews/avatar2.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/reviews/avatar1.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/reviews/avatar3.jpg. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /images/car-silhouette.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+[next-auth][error][NO_SECRET] 
+https://next-auth.js.org/errors#no_secret Please define a `secret` in production. t [MissingSecretError]: Please define a `secret` in production.
+    at t.assertConfig (/var/www/www-root/data/www/royaltransfer.org/.next/server/chunks/1159.js:1:109133)
+    at m (/var/www/www-root/data/www/royaltransfer.org/.next/server/chunks/1159.js:1:102503)
+    at async s (/var/www/www-root/data/www/royaltransfer.org/.next/server/chunks/1159.js:25:20856)
+    at async x (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/galleries/route.js:1:1946)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1588:28)
+    at async NextNodeServer.renderToResponseWithComponentsImpl (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1496:28) {
+  code: 'NO_SECRET'
+}
+ ⨯ Error: There is a problem with the server configuration. Check the server logs for more information.
+    at s (/var/www/www-root/data/www/royaltransfer.org/.next/server/chunks/1159.js:25:21104)
+    at async x (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/galleries/route.js:1:1946)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1588:28)
+    at async NextNodeServer.renderToResponseWithComponentsImpl (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1496:28)
+    at async NextNodeServer.renderPageComponent (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1924:24)
+    at async NextNodeServer.renderToResponseImpl (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1962:32)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
